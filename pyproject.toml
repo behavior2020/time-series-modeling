@@ -1,0 +1,60 @@
+[tool.poetry]
+name = "dataplant"
+version = "0.1.0"
+description = "Intelichain backend server"
+authors = ["Ilan Eiland <ilan@intelichain.com>"]
+
+[tool.poetry.dependencies]
+python = "~3.10"
+fastapi = "^0.75.1"
+sqlmodel = "^0.0.6"
+uvicorn = "^0.17.6"
+asyncpg = "^0.25.0"
+alembic = "^1.7.7"
+pandas = "^2.0.1"
+loguru = "^0.6.0"
+SQLAlchemy-Utils = "^0.38.2"
+pydantic = { extras = ["dotenv"], version = "^1.9.0" }
+openpyxl = "^3.0.9"
+python-slugify = "^6.1.1"
+azure-storage-blob = "^12.11.0"
+python-multipart = "^0.0.5"
+python-jose = { extras = ["cryptography"], version = "^3.3.0" }
+scipy = "^1.10.0"
+statsforecast = "^1.5.0"
+aiofiles = "^23.1.0"
+fastapi-cache2 = "^0.2.1"
+redis = "^5.0.4"
+tabulate = "^0.9.0"
+workalendar = "^17.0.0"
+transformers = "^4.42.3"
+pystan = "^3.10.0"
+prophet = "^1.1.5"
+plotly = "^5.22.0"
+ipykernel = "^6.29.5"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.1.1"
+pytest-cov = "^4.0.0"
+black = "^22.3.0"
+httpx = "^0.22.0"
+pytest-asyncio = "^0.18.3"
+isort = "^5.10.1"
+requests = "^2.31"
+autoflake = "^1.4"
+ipykernel = "^6.15.0"
+plotly = "^5.9.0"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.1.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+
+[tool.black]
+line-length = 120
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"

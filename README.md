@@ -1,4 +1,4 @@
-# Dataplat - Intelicahin backend server
+# Forecasting Sales with Time Series Data
 
 ## Web routes
 

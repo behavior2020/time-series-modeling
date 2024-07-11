@@ -18,7 +18,7 @@ OUTPUT_LENGTH = 6
 
 # Backtesting variables
 VAL_WINDOW = 5
-FORECAST_PERIODS = 6  # originally 3
+FORECAST_PERIODS = 3  # change from 3 to 6 for prophet notebook
 TRAIN_PERCENTAGE = 0.85
 TRAIN_N_POINTS = 26
 

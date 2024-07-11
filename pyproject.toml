@@ -3,6 +3,7 @@ name = "dataplant"
 version = "0.1.0"
 description = "Intelichain backend server"
 authors = ["Ilan Eiland <ilan@intelichain.com>"]
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "~3.10"
@@ -32,6 +33,11 @@ pystan = "^3.10.0"
 prophet = "^1.1.5"
 plotly = "^5.22.0"
 ipykernel = "^6.29.5"
+torch = "^2.3.1"
+darts = "^0.30.0"
+pytorch-lightning = "^2.3.3"
+numpy = ">=1.19.0,<2.0.0"  # Adjusted to be compatible with darts
+matplotlib = "^3.9.1"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.1.1"

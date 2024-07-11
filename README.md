@@ -1,4 +1,7 @@
 # Forecasting Sales with Time Series Data
+Developed an automated testing environment using the Darts library and fine-tuned various models (N-HiTS, N-BEATS, TiDE), enhancing forecast accuracy by up to 84.05% and improving MAE by 16.88%.
+
+Customized Meta’s Prophet model to accurately predict holiday effects, improving MAPE by 42.3%.
 
 ## Web routes
 
@@ -40,3 +43,9 @@ docker-compose up -d backend
 ```
 poetry run uvicorn app.main:app --reload
 ```
+
+## Visuals
+Fine-tuned various models (N-HiTS, N-BEATS, TiDE), enhancing forecast accuracy by up to 84.05% and improving MAE by 16.88%.
+
+
+Customize Meta’s Prophet model to accurately predict holiday effects, improving MAPE by 42.3%.

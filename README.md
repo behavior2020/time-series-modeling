@@ -52,5 +52,4 @@ Fine-tuned various models (N-HiTS, N-BEATS, TiDE), enhancing forecast accuracy b
 ---
 
 Customized Meta’s Prophet model to accurately predict holiday effects, improving MAPE by **42.3%**.
-
 ![Graph 2](images/prophet.png)

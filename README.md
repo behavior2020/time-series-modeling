@@ -1,7 +1,7 @@
 # Forecasting Sales with Time Series Data
 1) Developed an automated testing environment using the Darts library and fine-tuned various models (N-HiTS, N-BEATS, TiDE), enhancing forecast accuracy by up to 84.05% and improving MAE by 16.88%. See `darts_results.py`
 
-2) Customized Meta’s Prophet model to accurately predict holiday effects, improving MAPE by 42.3%. `See notebooks/prophet_holidays.ipynb`
+2) Customized Meta’s Prophet model to accurately predict holiday effects, improving MAPE by 42.3%. See `notebooks/prophet_holidays.ipynb`
 
 ## Web routes
 

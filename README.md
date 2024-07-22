@@ -3,6 +3,8 @@
 
 2. Customized Meta’s Prophet model to accurately predict holiday effects, improving MAPE by **42.3%**. See ``notebooks/prophet_holidays.ipynb``
 
+Find more details in this [article from Intelichain's website](https://inteli-chain.com/mastering-time-series-modeling/).
+
 ## Web routes
 
 All routes are available on ``/docs`` or ``/redoc`` paths with Swagger or ReDoc.
